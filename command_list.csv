@@ -1,0 +1,70 @@
+    1  /Volumes/HiLink/HiLink.app/Contents/MacOS/HiLink ; exit;
+    2  /Volumes/HiLink/HiLink.app/Contents/MacOS/HiLink ; exit;
+    3  git --version
+    4  git --version
+    5  cd ~/Desktop/Git_Homeworks
+    6  mkdir ~/Desktop/Git_Homeworks
+    7  cd ~/Desktop/Git_Homeworks
+    8  pwd
+    9  history -c && rm ~/.bash_history
+   10  rm ~/.zsh_history
+   11  git config --global user.name "Anna"
+   12  git config --global user.name "xxANNETTExx"
+   13  git config --global user.email "nutochka157@gmail.com"
+   14  git config --global --list
+   15  cd ~/Desktop/Git_Homeworks
+   16  pwd
+   17  git clone https://github.com/xxANNETTExx/HW_10.git
+   18  ls -la
+   19  cd HW_10
+   20  ls -la
+   21  git status
+   22  touch text_ignore.txt
+   23  ls
+   24  echo "text_ignore.txt" >> .gitignore
+   25  cat .gitignore
+   26  git status
+   27  cat .gitignore
+   28  nano .gitignore
+   29  cat .gitignore
+   30  git status
+   31  git add .
+   32  git status
+   33  git commit -m "Add text_ignore.txt to gitignore"
+   34  git status
+   35  git push
+   36  git push
+   37  git push
+   38  git status
+   39  touch main_test.txt
+   40  ді
+   41  ls
+   42  git status
+   43  git add .
+   44  git status
+   45  git commit -m "Add main_test.txt"
+   46  git status
+   47  git push
+   48  git status
+   49  git checkout -b develop
+   50  git branch
+   51  touch develop_test.txt
+   52  git status
+   53  git add .
+   54  git commit -m "Add develop_test.txt"
+   55  echo "just a small change" >> develop_test.txt
+   56  git status
+   57  git add .
+   58  git commit -m "Update develop_test.txt"
+   59  git status
+   60  git push -u origin develop
+   61  git status
+   62  git branch
+   63  git checkout main
+   64  git branch
+   65  git merge develop
+   66  git log --oneline
+   67  git log --oneline --graph --all
+   68  git status
+   69  git push
+   70  git status
